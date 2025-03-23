@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        CloudinaryManager.init(this)
+
         var btnRegistrar = findViewById(R.id.agregar_pokemon) as Button
 
         btnRegistrar.setOnClickListener {
