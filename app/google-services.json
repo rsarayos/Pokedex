@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971963779908",
+    "project_id": "pokedex-99553",
+    "storage_bucket": "pokedex-99553.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971963779908:android:cb945d6e7684a3e8aea511",
+        "android_client_info": {
+          "package_name": "sauceda.rayos.practicapokedex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpKWmGZdkoIszbOfJU6go4cExR4vPTObs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
