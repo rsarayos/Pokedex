@@ -8,15 +8,30 @@
     android:orientation="vertical"
     tools:context=".RegistrarPokemon">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:background="@color/rojo"/>
+
     <EditText
         android:id="@+id/numero_pokemon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="numero de pokemon"
         android:inputType="text"
-        android:padding="20dp"
-        android:layout_marginTop="20dp"
+        android:padding="30dp"
         />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/rojo" />
 
     <EditText
         android:id="@+id/nomb_pokemon"
@@ -24,26 +39,50 @@
         android:layout_height="wrap_content"
         android:hint="nombre de pokemon"
         android:inputType="text"
-        android:padding="20dp"
-        android:layout_marginTop="20dp"
+        android:padding="30dp"
         />
 
-    <Button
-        android:id="@+id/btn_seleccionar_imagen"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:text="Seleccionar Imagen"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/rojo">
 
-    <Button
-        android:id="@+id/registrar"
-        android:layout_width="170dp"
-        android:layout_height="50dp"
-        android:text="Registrar"
-        android:layout_marginTop="30dp"
-        android:gravity="center"
-        android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/btn_seleccionar_imagen"
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:text="Seleccionar Imagen"
+            android:textSize="18dp"
+            android:textColor="@color/letras"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/mensaje_imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:text="Registrar"
+            android:textSize="18dp"
+            android:textColor="@color/letras"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
 
 
 </LinearLayout>
